@@ -1,4 +1,4 @@
-<section class="hero <?=$args['class']?>">
+<section class="hero <?=$args['class'] ?? ''?>">
    <div class="background">
       <img src="<?= get_field('hero_background') ?>" alt="">
    </div>
