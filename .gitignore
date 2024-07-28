@@ -81,6 +81,7 @@ wp-content/mysql.sql
 
 /wp-content/uploads
 /media
+/.osp
 
 .DS_Store
 ._.DS_Store
