@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Outfit:wght@200;300;400;600;700&display=swap');
+
+@function toRGB ($color) {
+    @return red($color) + ", " + green($color) + ", " + blue($color);
+}
+
+
+$c1: #D3A678;
+$c1rgb: toRGB($c1);
+$c2: #bf3b3b;
+$c2rgb: toRGB($c2);
+$c3: #352D24;
+$c3rgb: toRGB($c3);
+
+$bg: #000;
+$bg-light: #fff;
+$text: #fff;
+$text-dark: #000;
+$text-medium: #3d3d3d;
+
+$gradient1: linear-gradient(345.33deg, #D3A678 2%, #FFFFFF 78.39%);
+$gradient2: radial-gradient(50.11% 107.14% at 41.56% 62.5%, #EA4D4D 0%, #882222 100%);
+
+
+
+:root {
+   --primary: #{$c1};
+   --primary-rgb: #{$c1rgb};
+   --secondary: #{$c2};
+   --secondary-rgb: #{$c2rgb};
+   --tertiary: #{$c3};
+   --tertiary-rgb: #{$c3rgb};
+   --gradient1: #{$gradient1};
+   --gradient2: #{$gradient2};
+   --background: #{$bg};
+   --background-light: #{$bg-light};
+   --text: #{$text};
+   --text-dark: #{$text-dark};
+   --text-medium: #{$text-medium};
+   --font: "Outfit", sans-serif;
+   --font-header: "Cardo", serif;
+}

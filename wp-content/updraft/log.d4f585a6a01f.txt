@@ -1,0 +1,383 @@
+0000.001 (0) Opened log file at time: Wed, 26 Jun 2024 01:49:39 +0000 on https://www.storyformedlife.org
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.5 WP: 6.5.5 PHP: 8.0.30 (fpm-fcgi, Linux 647059.cloudwaysapps.com 4.19.0-21-amd64 #1 SMP Debian 4.19.249-2 (2022-06-30) x86_64) MySQL: 10.4.34-MariaDB-1:10.4.34+maria~deb10-log (max packet size=134217728) WPLANG: en_US Server: Apache/2.4.59 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.2M | 40M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 24310.5 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.015 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.022 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1718761695, seconds_ago=604884)
+0000.027 (0) Set semaphore last lock (fd) time to 2024-06-26 01:49:39
+0000.031 (0) Semaphore lock (fd) complete
+0000.039 (0) Backup run: resumption=0, nonce=d4f585a6a01f, file_nonce=d4f585a6a01f begun at=1719366579 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1719366879) in case this run gets aborted
+0000.061 (0) Checking if we have a zip executable available
+0000.065 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.382 (0) Total entities for the zip file: 536 directories, 3553 files (0 skipped as non-modified), 74 MB
+0000.393 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.402 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.411 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.420 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.434 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.443 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.451 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.460 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.472 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.484 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.489 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.9 MB, 3553 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.393 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1100 files added (on-disk size: 5008 KB)
+0002.398 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1200 files added (on-disk size: 5008 KB)
+0002.403 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1300 files added (on-disk size: 5008 KB)
+0002.408 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1400 files added (on-disk size: 5008 KB)
+0002.414 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1500 files added (on-disk size: 5008 KB)
+0002.421 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1600 files added (on-disk size: 5008 KB)
+0002.429 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1700 files added (on-disk size: 5008 KB)
+0002.435 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1800 files added (on-disk size: 5008 KB)
+0002.439 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 1900 files added (on-disk size: 5008 KB)
+0002.444 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2000 files added (on-disk size: 5008 KB)
+0002.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.6 MB, 3553 files batched, 1001 (2002) added so far); re-opening (prior size: 5008 KB)
+0004.805 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2100 files added (on-disk size: 11532.1 KB)
+0004.811 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2200 files added (on-disk size: 11532.1 KB)
+0004.815 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2300 files added (on-disk size: 11532.1 KB)
+0004.820 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2400 files added (on-disk size: 11532.1 KB)
+0004.825 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2500 files added (on-disk size: 11532.1 KB)
+0004.829 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2600 files added (on-disk size: 11532.1 KB)
+0004.834 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2700 files added (on-disk size: 11532.1 KB)
+0004.838 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2800 files added (on-disk size: 11532.1 KB)
+0004.843 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 2900 files added (on-disk size: 11532.1 KB)
+0004.848 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3000 files added (on-disk size: 11532.1 KB)
+0004.850 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.4 MB, 3553 files batched, 1001 (3003) added so far); re-opening (prior size: 11532.1 KB)
+0008.119 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3100 files added (on-disk size: 23031.8 KB)
+0008.123 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3200 files added (on-disk size: 23031.8 KB)
+0008.128 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3300 files added (on-disk size: 23031.8 KB)
+0008.133 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3400 files added (on-disk size: 23031.8 KB)
+0008.137 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.tmp: 3500 files added (on-disk size: 23031.8 KB)
+0008.963 (0) Creating zip file manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.list-temp.tmp)
+0008.978 (0) Successfully created zip file manifest (size: 301021)
+0009.346 (0) Created plugins zip (0) - 29778.7 KB in 9.3 s (3214.5 KB/s) (sha1: fb07dd33f700f14bb1500b0dde13257c6d73f308, sha256: ed00486fef4dc451fd7bdd499db40d22d5ec37ce4eb3a5f2344b19ae5b92ed61)
+0009.355 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.357 (0) No remote despatch: user chose no remote backup service
+0009.360 (0) Recording as successfully uploaded: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip
+0009.364 (0) Deleting zip manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip.list.tmp)
+0009.368 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0009.373 (0) Number of backup sets in history: 5; groups (db): 1
+0009.375 (0) Examining (for databases) backup set with group_id=0, nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0009.376 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Examining (for databases) backup set with group_id=0, nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0009.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Examining (for databases) backup set with group_id=0, nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0009.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Examining (for databases) backup set with group_id=0, nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0009.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Examining (for databases) backup set with group_id=0, nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0009.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Number of backup sets in history: 5; groups (files): 1
+0009.381 (0) Examining (for files) backup set with nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0009.381 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.383 (0) Examining (for files) backup set with nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0009.383 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.383 (0) Examining (for files) backup set with nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0009.383 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.383 (0) Examining (for files) backup set with nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0009.384 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.384 (0) Examining (for files) backup set with nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0009.384 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.384 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0009.393 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.433 (0) Total entities for the zip file: 105 directories, 468 files (0 skipped as non-modified), 7.4 MB
+0009.439 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.444 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.449 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.453 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.055 (0) Creating zip file manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.list-temp.tmp)
+0010.059 (0) Successfully created zip file manifest (size: 34741)
+0010.129 (0) Created themes zip (0) - 4752.7 KB in 0.7 s (6509.5 KB/s) (sha1: 98f764134131a4291d1d49d9b2ecbe708716df89, sha256: c3b010c4f915b61a4c7b6445c1657df9c830dfe93d599f01423a1f6a066d7596)
+0010.137 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.139 (0) No remote despatch: user chose no remote backup service
+0010.141 (0) Recording as successfully uploaded: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip
+0010.146 (0) Deleting zip manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip.list.tmp)
+0010.150 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0010.153 (0) Number of backup sets in history: 5; groups (db): 1
+0010.155 (0) Examining (for databases) backup set with group_id=0, nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0010.156 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.158 (0) Examining (for databases) backup set with group_id=0, nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0010.158 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.158 (0) Examining (for databases) backup set with group_id=0, nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0010.158 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.158 (0) Examining (for databases) backup set with group_id=0, nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0010.158 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.158 (0) Examining (for databases) backup set with group_id=0, nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0010.158 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.158 (0) Number of backup sets in history: 5; groups (files): 1
+0010.160 (0) Examining (for files) backup set with nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0010.160 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.163 (0) Examining (for files) backup set with nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0010.163 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.163 (0) Examining (for files) backup set with nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0010.163 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.163 (0) Examining (for files) backup set with nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0010.163 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.163 (0) Examining (for files) backup set with nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0010.163 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.163 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0010.175 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.177 (0) Looking for candidates to backup in: /home/647059.cloudwaysapps.com/nzhzujfzcr/public_html/wp-content/uploads
+0010.179 (0) finding files: 2023: adding to list (1)
+0010.181 (0) finding files: wpcf7_uploads: adding to list (2)
+0010.184 (0) finding files: 2024: adding to list (3)
+0010.186 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.221 (0) Total entities for the zip file: 17 directories, 999 files (0 skipped as non-modified), 117.9 MB
+0010.227 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.231 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.235 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 999 files batched, 242 (242) added so far); re-opening (prior size: 0 KB)
+0010.581 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 31475.7 KB/s)
+0010.586 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.81464409828186, normalised_time=0.81332586900626, max_time=10.582927942276, data points known=1, old_max_bytes=26214400, new_max_bytes=204659743)
+0010.593 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 300 files added (on-disk size: 25675.8 KB)
+0010.598 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 400 files added (on-disk size: 25675.8 KB)
+0010.602 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 500 files added (on-disk size: 25675.8 KB)
+0010.606 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 600 files added (on-disk size: 25675.8 KB)
+0010.611 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 700 files added (on-disk size: 25675.8 KB)
+0010.616 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 800 files added (on-disk size: 25675.8 KB)
+0010.624 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.tmp: 900 files added (on-disk size: 25675.8 KB)
+0012.151 (0) Creating zip file manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.list-temp.tmp)
+0012.163 (0) Successfully created zip file manifest (size: 70361)
+0013.614 (0) Created uploads zip (0) - 120875.9 KB in 3.4 s (35312.5 KB/s) (sha1: 890298277b93016e5b334c86ff60aec8dfb7eab1, sha256: 16424061fa527479e88cdf6a1c5e582bf8311461ed76a0fce61e2e72dc561d04)
+0013.622 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.624 (0) No remote despatch: user chose no remote backup service
+0013.627 (0) Recording as successfully uploaded: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip
+0013.631 (0) Deleting zip manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip.list.tmp)
+0013.635 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0013.639 (0) Number of backup sets in history: 5; groups (db): 1
+0013.642 (0) Examining (for databases) backup set with group_id=0, nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0013.644 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.646 (0) Examining (for databases) backup set with group_id=0, nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0013.646 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.647 (0) Examining (for databases) backup set with group_id=0, nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0013.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.647 (0) Examining (for databases) backup set with group_id=0, nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0013.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.647 (0) Examining (for databases) backup set with group_id=0, nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0013.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.647 (0) Number of backup sets in history: 5; groups (files): 1
+0013.649 (0) Examining (for files) backup set with nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0013.649 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.651 (0) Examining (for files) backup set with nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0013.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.651 (0) Examining (for files) backup set with nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0013.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.651 (0) Examining (for files) backup set with nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0013.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.651 (0) Examining (for files) backup set with nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0013.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.652 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0013.661 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.664 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.666 (0) Looking for candidates to backup in: /home/647059.cloudwaysapps.com/nzhzujfzcr/public_html/wp-content
+0013.669 (0) finding files: mu-plugins: adding to list (1)
+0013.671 (0) finding files: ewww: adding to list (2)
+0013.673 (0) finding files: uploads: skipping: this is the uploads directory
+0013.675 (0) finding files: breeze-config: adding to list (3)
+0013.677 (0) finding files: cache: skipping: excluded by options
+0013.679 (0) finding files: themes: skipping: this is the themes directory
+0013.682 (0) finding files: debug.log: skipping: excluded by options
+0013.684 (0) finding files: index.php: adding to list (4)
+0013.686 (0) finding files: mc_data: adding to list (5)
+0013.688 (0) finding files: object-cache.php: adding to list (6)
+0013.690 (0) finding files: upgrade: skipping: excluded by options
+0013.693 (0) finding files: plugins: skipping: this is the plugins directory
+0013.695 (0) finding files: updraft: skipping: this is the updraft directory
+0013.698 (0) finding files: languages: adding to list (7)
+0013.709 (0) Total entities for the zip file: 8 directories, 146 files (0 skipped as non-modified), 8.4 MB
+0013.714 (0) Zip: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.837 (0) Creating zip file manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-others.zip.list-temp.tmp)
+0014.841 (0) Successfully created zip file manifest (size: 8131)
+0014.881 (0) Created others zip (0) - 2719.4 KB in 1.2 s (2306.6 KB/s) (sha1: 02d9a798671b4bad0f0176a6f2196281aa99655b, sha256: 29ea8632b95c092a80e17c47be7dd6b356c97542d2b62a90d397092705f162c2)
+0014.888 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.890 (0) No remote despatch: user chose no remote backup service
+0014.893 (0) Recording as successfully uploaded: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-others.zip
+0014.897 (0) Deleting zip manifest (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-others.zip.list.tmp)
+0014.902 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0014.905 (0) Number of backup sets in history: 5; groups (db): 1
+0014.908 (0) Examining (for databases) backup set with group_id=0, nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0014.908 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.910 (0) Examining (for databases) backup set with group_id=0, nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0014.910 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.910 (0) Examining (for databases) backup set with group_id=0, nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0014.910 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.910 (0) Examining (for databases) backup set with group_id=0, nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0014.910 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.910 (0) Examining (for databases) backup set with group_id=0, nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0014.910 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.910 (0) Number of backup sets in history: 5; groups (files): 1
+0014.912 (0) Examining (for files) backup set with nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0014.912 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.914 (0) Examining (for files) backup set with nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0014.914 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.915 (0) Examining (for files) backup set with nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0014.915 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.915 (0) Examining (for files) backup set with nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0014.915 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.915 (0) Examining (for files) backup set with nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0014.915 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0014.915 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0014.929 (0) Saving backup status to database (elements: 8)
+0014.938 (0) Beginning creation of database dump (WordPress DB)
+0014.940 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0014.965 (0) Table wp_options: Total expected rows (via COUNT): 325
+0014.968 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.980 (0) Table wp_options: Rows added in this batch (next record: 5232): 324 (uncompressed bytes in this segment=59740) in 0.02 seconds
+0014.992 (0) Table wp_options: finishing file(s) (2, 13.6 KB)
+0014.999 (0) Table wp_users: Total expected rows (via COUNT): 2
+0015.002 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.008 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1374) in 0.01 seconds
+0015.016 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0015.031 (0) Table wp_usermeta: Total expected rows (via COUNT): 53
+0015.033 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.038 (0) Table wp_usermeta: Rows added in this batch (next record: 54): 53 (uncompressed bytes in this segment=5685) in 0.01 seconds
+0015.049 (0) Table wp_usermeta: finishing file(s) (2, 2.1 KB)
+0015.062 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0015.068 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0015.078 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0015.090 (0) Table wp_comments: Total expected rows (via COUNT): 100
+0015.093 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.103 (0) Table wp_comments: Rows added in this batch (next record: 100): 100 (uncompressed bytes in this segment=46345) in 0.02 seconds
+0015.111 (0) Table wp_comments: finishing file(s) (2, 10.1 KB)
+0015.119 (0) Table wp_links: Total expected rows (via COUNT): 0
+0015.125 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0015.133 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0015.174 (0) Table wp_postmeta: Total expected rows (approximate): 8281
+0015.314 (0) Table wp_postmeta: Rows added in this batch (next record: 8491): 8202 (uncompressed bytes in this segment=1139426) in 0.17 seconds
+0015.325 (0) Table wp_postmeta: finishing file(s) (2, 134.7 KB)
+0015.340 (0) Table wp_posts: Total expected rows (via COUNT): 587
+0015.389 (0) Table wp_posts: Rows added in this batch (next record: 674): 587 (uncompressed bytes in this segment=418826) in 0.06 seconds
+0015.400 (0) Table wp_posts: finishing file(s) (2, 42.7 KB)
+0015.407 (0) Table wp_term_relationships: Total expected rows (approximate): 46
+0015.413 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 46 (uncompressed bytes in this segment=1321) in 0.01 seconds
+0015.420 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0015.431 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0015.433 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.438 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1050) in 0.01 seconds
+0015.447 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0015.458 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0015.463 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0015.472 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0015.480 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0015.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.488 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=849) in 0.01 seconds
+0015.495 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0015.504 (0) Table wp_bv_fw_requests: Total expected rows (via COUNT): 0
+0015.509 (0) Table wp_bv_fw_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1048) in 0.01 seconds
+0015.517 (0) Table wp_bv_fw_requests: finishing file(s) (2, 0.5 KB)
+0015.524 (0) Table wp_bv_ip_store: Total expected rows (approximate): 8343
+0015.606 (0) Table wp_bv_ip_store: Rows added in this batch (next record: 8368): 8368 (uncompressed bytes in this segment=515456) in 0.08 seconds
+0015.614 (0) Table wp_bv_ip_store: finishing file(s) (2, 79.9 KB)
+0015.622 (0) Table wp_bv_lp_requests: Total expected rows (via COUNT): 2
+0015.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.630 (0) Table wp_bv_lp_requests: Rows added in this batch (next record: 7): 2 (uncompressed bytes in this segment=1003) in 0.01 seconds
+0015.637 (0) Table wp_bv_lp_requests: finishing file(s) (2, 0.6 KB)
+0015.662 (0) Table wp_ewwwio_images: Total expected rows (via COUNT): 884
+0015.693 (0) Table wp_ewwwio_images: Rows added in this batch (next record: 902): 884 (uncompressed bytes in this segment=177303) in 0.05 seconds
+0015.701 (0) Table wp_ewwwio_images: finishing file(s) (2, 25.1 KB)
+0015.709 (0) Table wp_ewwwio_queue: Total expected rows (via COUNT): 0
+0015.712 (0) Table wp_ewwwio_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=660) in 0.00 seconds
+0015.720 (0) Table wp_ewwwio_queue: finishing file(s) (2, 0.4 KB)
+0015.722 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/647059.cloudwaysapps.com/nzhzujfzcr/public_html/wp-content/updraft/backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0015.725 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_options.table.tmpr5233.gz (1/17/fopen): adding to final database dump
+0015.728 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_options.table.gz (2/17/fopen): adding to final database dump
+0015.730 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_users.table.tmpr3.gz (3/17/fopen): adding to final database dump
+0015.732 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_users.table.gz (4/17/fopen): adding to final database dump
+0015.734 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_usermeta.table.tmpr55.gz (5/17/fopen): adding to final database dump
+0015.736 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_usermeta.table.gz (6/17/fopen): adding to final database dump
+0015.738 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_commentmeta.table.tmpr0.gz (7/17/fopen): adding to final database dump
+0015.740 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_commentmeta.table.gz (8/17/fopen): adding to final database dump
+0015.742 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_comments.table.tmpr101.gz (9/17/fopen): adding to final database dump
+0015.744 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_comments.table.gz (10/17/fopen): adding to final database dump
+0015.746 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_links.table.tmpr0.gz (11/17/fopen): adding to final database dump
+0015.748 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_links.table.gz (12/17/fopen): adding to final database dump
+0015.751 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_postmeta.table.tmpr8492.gz (13/17/fopen): adding to final database dump
+0015.754 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_postmeta.table.gz (14/17/fopen): adding to final database dump
+0015.756 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_posts.table.tmpr675.gz (15/17/fopen): adding to final database dump
+0015.759 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_posts.table.gz (16/17/fopen): adding to final database dump
+0015.761 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_term_relationships.table.tmpr100001.gz (17/17/fopen): adding to final database dump
+0015.763 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_term_relationships.table.gz (18/17/fopen): adding to final database dump
+0015.765 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_term_taxonomy.table.tmpr7.gz (19/17/fopen): adding to final database dump
+0015.767 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_term_taxonomy.table.gz (20/17/fopen): adding to final database dump
+0015.769 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_termmeta.table.tmpr0.gz (21/17/fopen): adding to final database dump
+0015.771 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_termmeta.table.gz (22/17/fopen): adding to final database dump
+0015.773 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_terms.table.tmpr7.gz (23/17/fopen): adding to final database dump
+0015.776 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_terms.table.gz (24/17/fopen): adding to final database dump
+0015.777 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_fw_requests.table.tmpr0.gz (25/17/fopen): adding to final database dump
+0015.780 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_fw_requests.table.gz (26/17/fopen): adding to final database dump
+0015.781 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_ip_store.table.tmpr8369.gz (27/17/fopen): adding to final database dump
+0015.784 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_ip_store.table.gz (28/17/fopen): adding to final database dump
+0015.786 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_lp_requests.table.tmpr8.gz (29/17/fopen): adding to final database dump
+0015.788 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_bv_lp_requests.table.gz (30/17/fopen): adding to final database dump
+0015.790 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_ewwwio_images.table.tmpr903.gz (31/17/fopen): adding to final database dump
+0015.793 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_ewwwio_images.table.gz (32/17/fopen): adding to final database dump
+0015.795 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_ewwwio_queue.table.tmpr0.gz (33/17/fopen): adding to final database dump
+0015.797 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db-table-wp_ewwwio_queue.table.gz (34/17/fopen): adding to final database dump
+0015.810 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db.gz: finished writing out complete database file (313.4 KB)
+0015.825 (0) Total database tables backed up: 17 (backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db.gz, size: 321023, sha1: 4071bcf3ac5909f8aa68a2a86a1e092d5f1ae037, sha256: 581fccd15a724fd3e77283d324b51e523c1a970840fafc07aac81b74d2ada48b)
+0015.838 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-plugins.zip: plugins: This file has already been successfully uploaded
+0015.840 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-themes.zip: themes: This file has already been successfully uploaded
+0015.842 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-uploads.zip: uploads: This file has already been successfully uploaded
+0015.844 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-others.zip: others: This file has already been successfully uploaded
+0015.846 (0) backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.848 (0) Saving backup history. Total backup size: 154.7 MB
+0015.855 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0015.860 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.863 (0) No remote despatch: user chose no remote backup service
+0015.865 (0) Recording as successfully uploaded: backup_2024-06-25-2149_StoryFormed_Life_d4f585a6a01f-db.gz
+0015.871 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0015.874 (0) Number of backup sets in history: 6; groups (db): 1
+0015.876 (0) Examining (for databases) backup set with group_id=0, nonce=d4f585a6a01f, datestamp=1719366579 (Jun 26 2024 01:49:39)
+0015.876 (0) This backup set is the backup set just made, so will not be deleted.
+0015.876 (0) Examining (for databases) backup set with group_id=0, nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0015.876 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.878 (0) Examining (for databases) backup set with group_id=0, nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0015.878 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.878 (0) Examining (for databases) backup set with group_id=0, nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0015.878 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.879 (0) Examining (for databases) backup set with group_id=0, nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0015.879 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.879 (0) Examining (for databases) backup set with group_id=0, nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0015.879 (0) 1716343309: db: this set includes a database (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-db.gz); db count is now 5
+0015.879 (0) 1716343309: db: over retain limit (5); will delete this database
+0015.879 (0) Delete file: backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-db.gz, service=none
+0015.880 (0) Deleting local copy (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-db.gz)
+0015.885 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0015.888 (0) Number of backup sets in history: 6; groups (files): 1
+0015.890 (0) Examining (for files) backup set with nonce=d4f585a6a01f, datestamp=1719366579 (Jun 26 2024 01:49:39)
+0015.890 (0) This backup set is the backup set just made, so will not be deleted.
+0015.892 (0) This backup set is the backup set just made, so will not be deleted.
+0015.892 (0) This backup set is the backup set just made, so will not be deleted.
+0015.892 (0) This backup set is the backup set just made, so will not be deleted.
+0015.892 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.895 (0) Examining (for files) backup set with nonce=18865e127664, datestamp=1718761695 (Jun 19 2024 01:48:15)
+0015.895 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.895 (0) Examining (for files) backup set with nonce=8723e7b27ff0, datestamp=1718157204 (Jun 12 2024 01:53:24)
+0015.895 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.895 (0) Examining (for files) backup set with nonce=2509a074d9b1, datestamp=1717552177 (Jun 05 2024 01:49:37)
+0015.895 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.896 (0) Examining (for files) backup set with nonce=7316783421eb, datestamp=1716947605 (May 29 2024 01:53:25)
+0015.896 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.896 (0) Examining (for files) backup set with nonce=940eedd51041, datestamp=1716343309 (May 22 2024 02:01:49)
+0015.896 (0) plugins: over retain limit (5); will delete this file entity
+0015.896 (0) themes: over retain limit (5); will delete this file entity
+0015.896 (0) uploads: over retain limit (5); will delete this file entity
+0015.896 (0) others: over retain limit (5); will delete this file entity
+0015.896 (0) Delete file: backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-plugins.zip, service=none
+0015.898 (0) Deleting local copy (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-plugins.zip)
+0015.900 (0) Delete file: backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-themes.zip, service=none
+0015.902 (0) Deleting local copy (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-themes.zip)
+0015.904 (0) Delete file: backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-uploads.zip, service=none
+0015.907 (0) Deleting local copy (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-uploads.zip)
+0015.911 (0) Delete file: backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-others.zip, service=none
+0015.913 (0) Deleting local copy (backup_2024-05-21-2201_StoryFormed_Life_940eedd51041-others.zip)
+0015.917 (0) This backup set is now empty; will remove from history
+0015.919 (0) Deleting log file (log.940eedd51041.txt)
+0015.921 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0015.929 (0) Resume backup (d4f585a6a01f, 0): finish run
+0015.934 (0) Decremented the semaphore (fd) by 1
+0015.938 (0) Semaphore (fd) unlocked
+0015.940 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0015.949 (0) No email will/can be sent - the user has not configured an email address.
+0015.951 (0) The backup apparently succeeded and is now complete

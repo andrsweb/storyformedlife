@@ -1,0 +1,246 @@
+#wpadminbar {
+	@media all and (max-width: 999px) {
+		display: none !important;
+	}
+}
+
+
+#nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+
+	&:target {
+		.inset {
+			transform: translateX(0);
+		}
+	}
+
+	.inset {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 250px;
+		background: white;
+		transform: translateX(-100%);
+		-webkit-transition:all 300ms ease-in;
+		-moz-transition:all 300ms ease-in;
+		-o-transition:all 300ms ease-in;
+		 transition:all 300ms ease-in;
+
+		//  &:before {
+		// 	content: '';
+		// 	position: absolute;
+		// 	width: 20px;
+		// 	height: 20px;
+		// 	background: url('../images/charm.png') center top no-repeat;
+		// 	left: 30px;
+		// 	top: 0;
+		//  }
+
+		.icon-close {
+			position: absolute;
+			color: var(--text-dark);
+			right: 0;
+			top: 0;
+			padding: 20px;
+		}
+
+		.menu {
+			margin-top: 40px;
+			padding: 2rem;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+				padding: 5px 0;
+				font-family: var(--font-header);
+				a {
+					color: var(--text-dark);
+					font-size: 1.2rem;
+				}
+
+				.sub-menu {
+					margin-left: 0;
+					padding: 0;
+					padding-left: 20px;
+					border-left: 2px solid rgba(black, .1);
+				}
+			}
+		}
+	}
+}
+
+header {
+position: fixed;
+	left: 0;
+	width: 100%;
+	padding: 1rem 0;
+	z-index: 10;
+	-webkit-transition: background 300ms ease-in;
+	-moz-transition: background 300ms ease-in;
+	-o-transition: background 300ms ease-in;
+	transition: background 300ms ease-in;
+	height: 120px;
+
+	.icon-menu {
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		left: 0;
+		top: 0;
+		color: white;
+		display: none;
+
+		@media all and (max-width: 999px) {
+			display: flex;
+		}
+	}
+
+	@media all and (max-width: 999px) {
+		top: 0;
+		background: rgba(black, 0.8);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border-bottom: 1px solid rgba(white, 0.1);
+		height: 70px;
+		position: fixed;
+	}
+
+	&.floating {
+		background: rgba(black, 0.8);
+		backdrop-filter: blur(5px);
+		border-bottom: 1px solid rgba(white, 0.1);
+	}
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media all and (max-width: 999px) {
+			justify-content: center;
+		}
+
+		.logo {
+			position: relative;
+			margin-bottom: -30px;
+
+			@media all and (max-width: 999px) {
+				img {
+					height: 60px;
+				}
+			}
+
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				border-top: 4px solid var(--secondary);
+				margin-top: -1rem;
+			}
+		}
+
+		.menu-wrapper {
+
+			@media all and (max-width: 999px) {
+				display: none;
+			}
+			.menu {
+				display: flex;
+
+				> li {
+					list-style: none;
+					border-left: 1px solid rgba(white, 0.3);
+					padding: 10px 2rem;
+					font-family: var(--font-header);
+					font-weight: bold;
+					font-size: 1.18rem;
+					position: relative;
+
+					&:not(.button) {
+						&:hover {
+							background: white;
+
+							a {
+								color: var(--text-dark);
+							}
+
+							.sub-menu {
+								visibility: visible;
+								opacity: 1;
+								margin-top: 0;
+							}
+						}
+					}
+
+					.sub-menu {
+						position: absolute;
+						width: 230px;
+						background: var(--background-light);
+						padding: 0;
+						margin: 0;
+						top: 100%;
+						left: 0;
+						visibility: hidden;
+						opacity: 0;
+						-webkit-transition: all 200ms ease-in;
+						-moz-transition: all 200ms ease-in;
+						-o-transition: all 200ms ease-in;
+						transition: all 200ms ease-in;
+						margin-top: -10px;
+
+						padding: 10px 0;
+
+						li {
+							list-style: none;
+							a {
+								color: var(--text-dark);
+								padding: 1rem 2rem;
+								display: block;
+								font-weight: normal;
+
+								&:hover {
+									color: var(--primary);
+								}
+							}
+						}
+					}
+
+					a {
+						color: var(--text);
+					}
+
+					&:first-child {
+						border-left: 0;
+					}
+
+					&.button {
+						border-left: 0;
+						margin-left: 3rem;
+						padding: 0;
+
+						a {
+							@include button;
+                     display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+}

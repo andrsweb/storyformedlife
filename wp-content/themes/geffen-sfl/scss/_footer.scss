@@ -1,0 +1,109 @@
+footer {
+	padding: 4rem 0;
+
+	.newsletter {
+		@media all and (max-width: 999px) {
+			flex: 100%;
+			margin-top: 20px;
+			border-top: 1px solid #222;
+			padding-top: 20px;
+		}
+	}
+
+	.content {
+		display: flex;
+
+		@media all and (max-width: 999px) {
+			flex-wrap: wrap;
+		}
+
+		.logo {
+			margin-right: 4rem;
+
+			@media all and (max-width: 999px) {
+				flex: 100%;
+				text-align: center;
+				margin-right: 0;
+				margin-bottom: 2rem;
+			}
+		}
+
+		.menu-wrapper {
+			max-width: 400px;
+			width: 100%;
+
+			@media all and (max-width: 999px) {
+				text-align: center;
+			}
+
+			ul {
+				margin: 0;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				width: 100%;
+				padding: 0;
+
+				li {
+					list-style: none;
+					padding: 0.2rem 0;
+
+					a {
+						color: var(--text);
+
+						&:hover {
+							color: var(--primary);
+						}
+					}
+				}
+			}
+		}
+
+		.end-block {
+			flex: 1;
+			text-align: right;
+
+			.social {
+				text-align: right;
+				margin-bottom: 20px;
+
+				a {
+					font-size: 1.4rem;
+					margin-left: 10px;
+					color: white;
+				}
+			}
+
+			@media all and (max-width: 999px) {
+				text-align: center;
+				font-size: 0.8rem;
+				margin-top: 2rem;
+			}
+		}
+	}
+}
+
+.ml-form-embedWrapper {
+	background: none !important;
+	color: white !important;
+	padding: 0 !important;
+
+	@media all and (max-width: 999px) {
+		margin-top: 20px;
+	}
+
+	.ml-form-embedBody {
+		padding: 0 !important;
+
+		.ml-form-embedSubmit {
+			button.primary {
+				background: #333 !important;
+			}
+		}
+	}
+
+	h4,
+	p {
+		color: white !important;
+		font-family: var(--font) !important;
+	}
+}

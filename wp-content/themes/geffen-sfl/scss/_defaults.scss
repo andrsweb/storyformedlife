@@ -1,0 +1,116 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: var(--background);
+	color: var(--text);
+	font-family: var(--font);
+	line-height: 1.4;
+	overflow-x: hidden;
+}
+
+html {
+	@media all and (max-width: 782px) {
+		margin-top: 0 !important;
+	}
+}
+
+.content {
+	width: 100%;
+	max-width: 1550px;
+	margin: 0 auto;
+	padding: 0px 25px;
+}
+
+a {
+	color: var(--primary);
+	text-decoration: none;
+}
+
+a.button {
+	@include button;
+}
+
+a.button-light {
+	background: var(--background-light);
+	color:var(--text-dark);
+	text-transform: uppercase;
+		padding: 1rem 1.5rem;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: var(--font);
+	display: inline-block;
+
+	@media all and (max-width: 999px) {
+		font-size: 0.8rem;
+		padding: 0.8rem 1rem;
+	}
+}
+
+a.button-dark {
+	background: var(--background);
+	color: white;
+	text-transform: uppercase;
+	padding: 1rem 1.5rem;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: var(--font);
+
+	@media all and (max-width: 999px) {
+		font-size: 0.8rem;
+		padding: 0.8rem 1rem;
+	}
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+//
+// Text Content
+//
+
+.text-content-light {
+	color: var(--text-dark);
+	font-size: 1.2rem;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		color: var(--primary);
+		font-family: var(--font-header);
+		font-weight: normal;
+		line-height: 1;
+	}
+
+	h1 {
+		font-size: clamp(2rem, 4vw, 4rem);
+	}
+	h2 {
+		font-size: clamp(1.7rem, 4vw, 3.5rem);
+	}
+}
+
+//
+// Sal
+//
+
+[data-sal|="fup"] {
+	opacity: 0;
+	transition-property: opacity, transform;
+	transform: translateY(10%);
+}
+
+[data-sal|="fup"].sal-animate {
+	opacity: 1;
+	transform: translateY(0%);
+}
+
+
+
+.wp-block-button {
+	margin: 0px 10px !important;
+}
